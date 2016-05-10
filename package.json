@@ -1,0 +1,27 @@
+{
+  "name": "did-you-get-the-message",
+  "version": "1.0.0",
+  "description": "Did You Get the Message?: Command the Elm Architecture",
+  "main": "index.js",
+  "dependencies": {
+    "elm": "^0.18.0",
+    "reveal-md": "0.0.31"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "postinstall": "elm package install -y",
+    "start": "reveal-md slides.md --theme 'simple' --separator '^\\n\\*\\s*\\*\\s*\\*\\n' --verticalSeparator '^\\n-\\s*-\\s*-\\n' --disableAutoOpen",
+    "reactor": "elm reactor",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/toastal/Did-You-Get-The-Message-Commanding-the-Elm-Architecture.git"
+  },
+  "author": "toastal",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/toastal/Did-You-Get-The-Message-Commanding-the-Elm-Architecture/issues"
+  },
+  "homepage": "https://github.com/toastal/Did-You-Get-The-Message-Commanding-the-Elm-Architecture#readme"
+}
